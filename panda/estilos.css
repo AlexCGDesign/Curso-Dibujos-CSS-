@@ -1,0 +1,89 @@
+*,
+::after,
+::before {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.panda{
+    margin: 80px;
+    width: 200px;
+    height: 150px;
+    border: 6px solid;
+    border-radius: 50%;
+    position: relative;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.orejas{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    background-color: #000;
+    border-radius: 50%;
+    top: -20px;
+    left: 0;
+    box-shadow: 118px 0;
+    z-index: -1;
+}
+
+.ojos{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background-color: #000;
+    border-radius: 50%;
+    top: 30px;
+    left: 20px;
+}
+
+.ojos--derecha{
+    left: unset;
+    right: 20px;
+}
+
+.pupilas{
+    width: 28px;
+    height: 28px;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    box-shadow: -15px 20px 0 -8px #fff;
+}
+
+.nariz{
+    width: 30px;
+    height: 20px;
+    background-color: #000;
+    border-radius: 50%;
+    position: relative;
+    top: 20px;
+}
+
+.nariz::before{
+    content: "";
+    position: absolute;
+    width: 6px;
+    height: 14px;
+    background-color: #000;
+    top: 20px;
+    left: 12px;
+}
+
+.nariz::after{
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 20px;
+    border: 6px solid #000;
+    top: 20px;
+    left: -5px;
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    border-top: 0;
+}

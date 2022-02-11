@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #c2bbbb;
+}
+
+.bandera{
+    margin: 70px;
+    width: 200px;
+    height: 50px;
+    background-color: #AE1C28;
+    box-shadow: 0 50px #fff, 0 100px #21468B;
+}
